@@ -1,0 +1,13 @@
+{
+  "name": "node-cpp-calculator",
+  "version": "1.0.0",
+  "dependencies": {
+    "cmake-js": "^6.0.0"
+  },
+  "scripts": {
+    "compile": "node_modules/.bin/cmake-js compile"
+  },
+  "devDependencies": {
+    "node-addon-api": "^2.0.0"
+  }
+}
